@@ -1,0 +1,6 @@
+Bian Jiang's Vim configuration
+
+cp vimrc ~/.vimrc
+cp -r vim ~/.vim
+
+
