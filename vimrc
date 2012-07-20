@@ -1,8 +1,8 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " ModifiedBy:   Bian Jiang - http://www.wifihack.net
 " Email: borderj-AT-gmail-com
-" Version: 1.8
-" Last Change: 2011-06-17
+" Version: 1.9
+" Last Change: 2012-07-20
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 "Sets how many lines of history VIM har to remember
@@ -53,16 +53,14 @@ nmap :QA :quitall
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Enable syntax
 syntax enable
-"set guifont=Bitstream\ Vera\ Sans\ Mono:h11
-"set guifont=Monaco:h10
-set gfn=Monospace\ 10
-set guifont=Monospace\ 10
+
+set guifont=DejaVu\ Sans\ Mono\ 9
 
 if has("gui_running")
     set guioptions-=T
     set t_Co=256
     set background=dark
-    colorscheme peaksea
+    colorscheme desert
 else
     colorscheme zellner
     set background=dark
