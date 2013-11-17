@@ -1,5 +1,7 @@
 Bian Jiang's Vim configuration
 
+Rewrite vimrc by bundle, please see [https://github.com/border/vimrc]
+
 cp vimrc ~/.vimrc
 cp -r vim ~/.vim
 
