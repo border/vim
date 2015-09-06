@@ -5,6 +5,17 @@
 " Last Change: 2012-07-20
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" Start vim by using: vim -u /path/to/portable/vim/.vimrc
+"" set default 'runtimepath' (without ~/.vim folders)
+"let &runtimepath = printf('%s/vimfiles,%s,%s/vimfiles/after', $VIM, $VIMRUNTIME, $VIM)
+"
+"" what is the name of the directory containing this file?
+"let s:portable = expand('<sfile>:p:h')
+"
+"" add the directory to 'runtimepath'
+"let &runtimepath = printf('%s,%s,%s/after', s:portable, &runtimepath, s:portable)
+
+
 "Sets how many lines of history VIM har to remember
 set history=500
 set modeline
